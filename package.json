@@ -8,10 +8,16 @@
   "description": "Um projeto de estudo para o Curso.dev",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "dev": "next dev"
+  "devDependencies": {
+    "prettier": "^3.2.5"
   },
+
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --fix ."
+  },
+
   "author": "",
   "license": "MIT"
 }
